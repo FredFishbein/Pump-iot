@@ -1,0 +1,217 @@
+/* Navbar section */
+.topnav{
+    background-color: #eeeeee;
+    
+  }
+  .pumpIoTlogoNavbar{
+    margin-left: 10%;
+  }
+  .demoButton{
+    margin-left: 50px;
+    color:white;
+    font-family: poppins;
+    background-color: rgb(243, 161, 8);
+  }
+  #navbarNavAltMarkup {
+    margin-left: 3%;
+  
+  }
+  .dropdown-item {
+    background-color: #373a40;
+    color:white;
+    
+  }
+  
+  .navbar-toggler{
+    height:60px;
+    width:60px;
+  }
+  
+  .custom-toggler.navbar-toggler{
+    border-color:#2e80dd;
+  }
+
+
+  .navbar-light .navbar-nav .nav-link {
+    color:rgba(8, 8, 8, 0.753);
+    font-weight: bold;
+
+  }
+  .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color:rgba(8, 8, 8, 0.753);
+  font-weight: bold;
+  }
+  .mailingListTextField{
+    padding-left: 50%;
+  }
+
+  /* END */
+
+  /* The smart industrial pump concept section */
+
+  .pumpConcept{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top:50px;
+    color:white;
+  }
+  .pumpConcept-description {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    color:white;
+  
+  }
+  .top-containerC{
+    width:auto;
+    height: 300px;
+    background-color: #1a2029;
+  }
+
+  /* END */
+
+  /* Pump with image icons */
+
+  .pumpImage{
+    width:auto;
+    height: 550px;
+    background-color: white;
+  }
+  .topPumpImage{
+    height:100%;
+    width:auto;
+  }
+
+  /* Key Benefits section */
+
+  .back {
+    background-color: #eeeeee;
+    ;
+  }
+  
+  .fourBenefits{
+      width:100%;
+  }
+  .top{
+      margin-top: 50px;
+      font-family: poppins;
+      text-align: left;
+  }
+  .second{
+    margin-top: 105px;
+    font-family: poppins;
+    text-align: left;
+  }
+  #keyBenefitsText{
+      /* margin-left: 400px; */
+      padding-top: 20px;
+      padding-bottom: 5px;
+      color:rgba(8, 8, 8, 0.753);
+      font-weight: bold;
+      
+  }
+ 
+  .minimizeInefficienciesText{
+      text-align: left;
+      margin-top: 95px;
+      margin-bottom: 80px;
+      font-size: 1.25rem;
+      font-weight: 350;
+      color:rgba(8, 8, 8, 0.753)
+  }
+  .operationalEffciciencyText{
+      text-align: left;
+      padding-top: 20px;
+      padding-bottom: 40px;
+      font-size: 1.25rem;
+      font-weight: 350;
+      color:rgba(8, 8, 8, 0.753)
+  }
+ 
+ 
+
+  /* END */
+/* Black Section with Text */
+    .blackSectionWithText{
+    background-color: #1a2029;    
+    width: auto;
+    text-align: center;
+    height: 500px;
+    font-family: 'Poppins', sans-serif;
+
+    }
+    .BlackSectionText{
+        color:white;
+    }
+/* Blue Section with Demo Button */
+  .blueSection {
+    background-image: -webkit-linear-gradient(bottom, #2e80dd, #4db2ec 100%);
+    background-image: -o-linear-gradient(bottom, #2e80dd, #4db2ec 100%);
+    background-image: linear-gradient(to top, #2e80dd, #4db2ec 100%);
+    width: auto;
+    text-align: center;
+    height: 400px;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  .optimize{
+      padding-top: 150px;
+      color:whitesmoke;
+  }
+
+  /* END */
+
+  /* Bottom iot image */
+  
+  
+  .bottom{
+    background-color: #373a40;
+  }
+  .businessNameBottom{
+    text-align: center;
+    padding-top: 200px;
+    color:white;
+  }
+  .test1{
+    width: 100%;
+    height: 275px;
+  }
+
+  /* Black section bottom with social media */
+  .blackSectionWithTextBottom{
+    background-color: #1a2029;    
+    width: auto;
+    height: 150px;
+  }
+  .BlackSectionText{
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    color:white;
+    padding-top: 80px;
+    padding-left: 200px;
+
+  }
+
+  /* Screen size section */
+  
+  @media screen and (max-width: 1293px) {
+    .topnav {
+  
+    display:none;
+    }
+  }
+  @media screen and (max-width:990px){
+      .demoButton{
+        width:25%;
+        height:auto;
+        margin-right: 50px;
+      }
+    }
+    /* END */
+    @media screen and (min-width:767px){
+  .operationalEffciciencyText{
+        padding-bottom: 0px;
+      }
+    }
+   
+  
