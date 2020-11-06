@@ -13,6 +13,7 @@ app.get ("/", function(req, res){
 
 })
 
+
 app.post("/", function (req, res) {
     const email = req.body.email;
     console.log(email);

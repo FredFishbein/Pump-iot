@@ -10,7 +10,7 @@
     margin-left: 50px;
     color:white;
     font-family: poppins;
-    background-color: rgb(243, 161, 8);
+    background-color:#2e80dd;
   }
   #navbarNavAltMarkup {
     margin-left: 3%;
@@ -113,19 +113,23 @@
  
   .minimizeInefficienciesText{
       text-align: left;
-      margin-top: 95px;
-      margin-bottom: 80px;
+      padding-top: 50px;
+      padding-bottom: 60px;
       font-size: 1.25rem;
       font-weight: 350;
       color:rgba(8, 8, 8, 0.753)
   }
   .operationalEffciciencyText{
       text-align: left;
-      padding-top: 20px;
-      padding-bottom: 40px;
+      padding-top: 50px;
+      /* padding-bottom: 40px; */
       font-size: 1.25rem;
       font-weight: 350;
       color:rgba(8, 8, 8, 0.753)
+  }
+  /* This erases the second columns benefits */
+  .benefitsDisappear{
+    color:#eeeeee;
   }
  
  
@@ -138,10 +142,19 @@
     text-align: center;
     height: 500px;
     font-family: 'Poppins', sans-serif;
+    }
+    .mobileImage{
+      padding-top: 50px;
+      padding-bottom: 30px;
+      padding-right: 10px;
 
     }
-    .BlackSectionText{
+    .ipadImgText{
         color:white;
+        padding-top: 130px;
+        padding-bottom: 40px;
+        padding-right: 50px;
+        text-align: left;
     }
 /* Blue Section with Demo Button */
   .blueSection {
@@ -207,11 +220,23 @@
         margin-right: 50px;
       }
     }
-    /* END */
-    @media screen and (min-width:767px){
-  .operationalEffciciencyText{
-        padding-bottom: 0px;
+    @media screen and (max-width:1203px){
+      .ipadImgText{
+        padding-top: 5px;
       }
     }
+    @media screen and (min-width:1203px){
+      .ipadImgText{
+        padding-top: 120px;
+      }
+    }
+
+  
+
+    /* END */
+  
+   
+
+    
    
   
