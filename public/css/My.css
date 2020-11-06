@@ -204,12 +204,12 @@
     
   }
   .footerCopyrightText{
-    padding-top: 50px;
+    padding-top: 70px;
     
   }
   
   .socialImgs{
-    padding-top: 30px;
+    padding-top: 25px;
     height:auto;
     width: 300px;
     
@@ -241,6 +241,11 @@
     @media screen and (min-width:1203px){
       .ipadImgText{
         padding-top: 120px;
+      }
+    }
+    @media screen and (min-width:991px){
+    .socialImgs{
+      padding-top:50px;
       }
     }
 
