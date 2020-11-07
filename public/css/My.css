@@ -292,18 +292,43 @@
   }
 }
 /* END */
-
+/* <!---H1 about cards---> */
 .relatedExamples{
-      color:rgba(8, 8, 8, 0.753);
+      color:rgba(8, 8, 8, 0.664);
       font-size: 2rem;
       font-weight: bold;
       font-family: 'poppins',sans-serif;
       padding-top: 40px;
-      
-      
-
+}
+.card-title{
+  text-align: center;
+  font-family: 'poppins',sans-serif;
+  color:rgba(8, 8, 8, 0.664);
+  font-size: 1rem;
+  font-weight: bold;
+  font-stretch: expanded;
 }
 
+/* Button for the cards */
+.button {
+  background-color: #4db2ec; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  
+
+}
+.button5 {
+margin-left: 35%;
+margin-top: 2%;
+
+}
 
 
 
@@ -327,7 +352,7 @@
   }
   
   .socialImgs{
-    padding-top: 25px;
+    padding-top: 3px;
     height:auto;
     width: 300px;
     padding-left: 50%px;
@@ -373,7 +398,7 @@
 
   
 
-    /* END */
+    /* END *
   
    
 
