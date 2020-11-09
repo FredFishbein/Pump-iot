@@ -404,7 +404,7 @@ margin-top: 2%;
   }
 
   .mailingListTextField{
-    padding-top:60px;
+    padding-top:30px;
     
   }
   .emailForm{
@@ -471,8 +471,6 @@ margin-top: 2%;
       .operationalEffciciencyText {
         font-size: 1.75rem;
         font-weight: 200;
-        
-
       }
     }
     @media screen and (min-width:768px) and (max-width:992px){
@@ -505,62 +503,46 @@ margin-top: 2%;
    @media screen and (min-width:768px) and (max-width:992px){
     .mobileImage{
       padding-bottom: 5px;
-     
+     }
    }
- }
- @media screen and (min-width:768px) and (max-width:992px){
+  @media screen and (min-width:768px) and (max-width:992px){
   .mobileImage{
     padding-top: 70px;
-    padding-bottom: 5px;
-   
- }
-}
-@media screen and (min-width:768px) and (max-width:992px){
+    padding-bottom: 5px; 
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:992px){
   .MinimizeInText{
-    font-size: 3rem;
-   
- }
-}
-@media screen and (min-width:768px) and (max-width:992px){
+    font-size: 3rem; 
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:992px){
   .businessForm{
-    padding-top: 0px;
-   
- }
-}
-@media screen and (min-width:768px) and (max-width:992px){
+    padding-top: 0px; 
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:992px){
   .emailForm{
-    padding-top: 40px;
-   
- }
-}
-@media screen and (min-width:768px) and (max-width:992px){
+    padding-top: 40px; 
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:992px){
   .companyForm{
-    padding-top: 40px;
-   
- }
-}
-@media screen and (min-width:768px) and (max-width:992px){
+    padding-top: 40px; 
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:992px){
   .formBtn{
-    
     margin-top: 0px;
-   
- }
-}
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:992px){
+    .button5{
+      margin-left: 28%;
+      }
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-   
-
-  
     /* END *
   
    
