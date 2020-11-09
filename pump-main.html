@@ -19,7 +19,7 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/My.css">
-  <link rel="stylesheet" href="/My.js">
+  <link rel="stylesheet" href="/my.js">
 
 
 </head>
@@ -31,8 +31,25 @@
 
 <!----TopNavbar-->
 
+ 
+<!-- --------------------- -->
+
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light navbarname">
+    <img class="pumpIoTlogoNavbar" src="images/umpiot-removebg-preview (1).png" width="210" height="40" alt="">
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active 1" href="#">Why Pump IoT <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">Pumping Solutions</a>
+        <a class="nav-item nav-link" href="#">Customers</a>
+        <a class="nav-item nav-link" href="#">Resources</a>
+        <a class="nav-item nav-link" href="#">Blog</a>
+        <button type = "submit" class = "btn btn-primary btn-warning demoButton">Get a Demo</button>
+  </nav>
   <nav class="navbar navbar-expand-lg navbar-light #eeeeee topnav">
-    <a class="navbar-brand" href="#">Contact us</a>
+    <a class="navbar-brand" href="#">contact us</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -56,27 +73,7 @@
           <a class="nav-link" href="#">Login</a>
         </li>
       </ul>
-      <form action = "/" class="form-inline my-2 my-md-0 mailingListTextField" method="POST">
-        <input class="form-control mr-sm-2" name ="email" type="search" placeholder="Email Mailing List">
-        <button class="btn btn-outline-info" type="submit">Join</button>
-      </form>
     </div>
-  </nav>
-<!-- --------------------- -->
-
-  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light navbarname">
-    <img class="pumpIoTlogoNavbar" src="images/umpiot-removebg-preview (1).png" width="210" height="40" alt="">
-    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active 1" href="#">Why Pump IoT <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Pumping Solutions</a>
-        <a class="nav-item nav-link" href="#">Customers</a>
-        <a class="nav-item nav-link" href="#">Resources</a>
-        <a class="nav-item nav-link" href="#">Blog</a>
-        <button type = "submit" class = "btn btn-primary btn-warning demoButton">Get a Demo</button>
   </nav>
 
   <!-- ----------------------------- -->
@@ -84,10 +81,9 @@
 <!-- Top section with Text -->
 
   <div class ="top-containerC">
-    <h2 class = "pumpConcept">The Smart Industrial Pump Concept</h2>
-    <h5 class = "pumpConcept-description">Collect,analyze and exhange data.</h5>
-    <h5 class = "pumpConcept-description">PUMP IoT is your solution to smart monitoring and energy efficiency.</h5>
-    <h5 class = "pumpConcept-description">Predict issues that cause downtime or impact your pumping operations.</h5>
+    <h1 class = "pumpConcept">The Smart Industrial Pump Concept</h1>
+    <p class = "pumpConcept-description">Predictive maintenance. Remote asset monitoring. Enhanced operational efficiency.
+      Smart pumps and the data-driven insight they convey are delivering strategic business objectives for water and chemical treatment facilities, power plants, smart factories, and every other industrial arena.</p>
   </div>
   <div class ="pumpImage">
     <img src="images/New Project (3).png" class="rounded mx-auto d-block topPumpImage" alt="...">
@@ -97,18 +93,17 @@
   
 <div class="container-top">
     <div class="back fluid" style="width:100%;height:auto;">
-        <div class = "keybenefitsdiv">
-        </div>
+        
           <div class="container">
             <div class="row">
                 <div class="col-lg operationalEffciciencyText"> 
                   <div class="col-lg"><h1>KEY BENEFITS</h1></div> 
                 <p><strong>Operational Efficiency </strong>• Smart pump systems include product-specific sensors that monitor your assets and store data in the cloud, enabling maintenance personnel to spend more time diagnosing and managing assets and less time in manual checkups.</p>
-                <p><strong>Predictive maintenance</strong> • Replace preventative maintenance with analytic insights to proactively service parts before failure occurs, improving uptime and reducing life-cycle costs.</p>
+                <p class = "predicitivePclass"><strong>Predictive maintenance</strong> • Replace preventative maintenance with analytic insights to proactively service parts before failure occurs, improving uptime and reducing life-cycle costs.</p>
                 </div>
               <div class="col-lg minimizeInefficienciesText">
                 <div class="col-lg"><h1 class = "benefitsDisappear">KEY BENEFITS</h1></div> 
-                <p><strong>Minimize inefficiencies</strong> • Get automated alerts when issues are detected, quickly uncover  their root cause, and see exactly how your smart pump is used on the market with IoT Behavior Analytics.</p>
+                <p><strong>Minimize inefficiencies</strong> • Data is everything. With Pump IoT, you can perform root cause analysis to identify issues in your pumping operations, gain insight into pump usage to improve performance, and take data-driven action.</p>
                 <p><strong>Remote monitoring</strong> • Measure behavior like temperature, vibration, voltage, pressure, current, and flow rate from anywhere, at any time, to improve asset performance, increase compliance adherence, and increase productivity.</p>
               </div>
             </div>
@@ -123,12 +118,12 @@
         <div class="row">
           <div class="col-lg"> 
             <div class = "mobileImage">
-              <img class = "rounded mx-auto d-block" src="images/Mobiletest (1).png" width="750" height="600">
+              <img class = "rounded mx-auto d-block" src="images/blueBack.png" width="700" height="575">
              </div>
             </div>
-          <div class="col-lg ipadImgText">
-            <h3>Minimize inefficiencies</h3><p> • Get automated alerts when issues are detected, quickly uncover  their root cause, and see exactly how your smart pump is used on the market with IoT Behavior Analytics.</p>
-            <h3>Remote monitoring</h3><p> • Measure behavior like temperature, vibration, voltage, pressure, current, and flow rate from anywhere, at any time, to improve asset performance, increase compliance adherence, and increase productivity.</p>
+          <div class="col-lg phoneImgText">
+            <div class = "MinimizeInText"><h3>Minimize inefficiencies</h3><h5 class = "minimizeText"> • Get automated alerts when issues are detected, quickly uncover  their root cause, and see exactly how your smart pump is used on the market with IoT Behavior Analytics.</h5></div>
+            <div class ="remote"><h3>Remote monitoring</h3><h5 class = "minimizeText"> • Measure behavior like temperature, vibration, voltage, pressure, current, and flow rate from anywhere, at any time, to improve asset performance, increase compliance adherence, and increase productivity.</h5></div>
           </div>
         </div>
     </div>      
@@ -145,13 +140,13 @@
 <h1 class = "optimize">
   Maximize uptime, production yield, and quality
 </h1>
-<button class = "btn btn-outline-danger btn-lg">DEMO</button>
+<button class = "btn btn-outline-danger btn-lg demoButtonBlueSection">DEMO</button>
 </div>
 <!----test card carousel------>
 <div class="container-fluid">
   <h1 class="text-center mb-3 relatedExamples">RELATED EXAMPLES OF SMART INDUSTRIAL PRODUCTS</h1>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner row w-75 mx-auto">
+    <div class="carousel-inner row w-80 mx-auto">
       <div class="carousel-item col-md-4 active">
         <div class="card">
           <img class="card-img-top img-fluid" src="images/AdobeStock_187751764-5314x2657 (1).png" alt="Card image cap">
@@ -172,9 +167,9 @@
       </div>
       <div class="carousel-item col-md-4">
         <div class="card">
-          <img class="card-img-top img-fluid" src="images/AdobeStock_187751764-5314x2657 (1).png" alt="Card image cap">
+          <img class="card-img-top img-fluid" src="images/orangeMeter.png" alt="Card image cap">
           <div class="card-body">
-            <h4 class="card-title">MOBILE IOT SOLUTIONS</h4>
+            <h4 class="card-title">SMART METERING SOLUTIONS</h4>
             <button class="button button5">Read More</button>
           </div>
         </div>
@@ -190,18 +185,18 @@
       </div>
       <div class="carousel-item col-md-4">
         <div class="card">
-          <img class="card-img-top img-fluid" src="images/AdobeStock_187751764-5314x2657 (1).png" alt="Card image cap">
+          <img class="card-img-top img-fluid" src="images/blueMotor.png" alt="Card image cap">
           <div class="card-body">
-            <h4 class="card-title">MOBILE IOT SOLUTIONS</h4>
+            <h4 class="card-title">SMART PUMP SOLUTIONS</h4>
             <button class="button button5">Read More</button>
           </div>
         </div>
       </div>
       <div class="carousel-item col-md-4">
         <div class="card">
-          <img class="card-img-top img-fluid" src="images/AdobeStock_187751764-5314x2657 (1).png" alt="Card image cap">
+          <img class="card-img-top img-fluid" src="images/orangeMeter.png" alt="Card image cap">
           <div class="card-body">
-            <h4 class="card-title">MOBILE IOT SOLUTIONS</h4>
+            <h4 class="card-title">SMART METERING SOLUTIONS</h4>
             <button class="button button5">Read More</button>
           </div>
         </div>
@@ -227,36 +222,21 @@
   </div>
 </div>
    
-<div class="containerp">
-  <img src="images/abstract-polygonal-background-1 (1).png" alt="" style=" height:290px;width:100%;">
-  <hr class="vl" width="1" size="100">
-  <div class="right">Want to Learn More?</div>
+
+ <div class = "blackSectionWithText" style="width:100%;height:300px;">
+  <form action = "/" class="mailingListTextField" method="POST">
+    <h1 class = "wantMoreText">Want to know more?</h1>
+  <div class ="container">
+  <div class = "row">
+    <div class ="emailForm"><input class="form-control mr-lg-6" name ="email" type="search" placeholder="Email Address"></div>
+    <div class = "companyForm"><input class="form-control mr-lg-6" name ="cName" type="search" placeholder="Company Name"></div>
+    <div class ="businessForm"><input class="form-control mr-lg-6" name ="bPhone" type="search" placeholder="Business Phone"></div>
+  
+    <button class="btn btn-outline-info formBtn" type="submit">Request Info</button>
+  </form>  
 </div>
-
-
- 
- 
- <div class = "blackSectionWithText" style="width:100%;height:175px;">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg footerCopyrightText"> 
-        <div>
-          <p>Copyright © 2020 Pump IoT Interactive LTD. All Rights Reserved.</p>
-         </div>
-        </div>
-      <div class="col-lg socialImgs">
-        <img class = "socialMediaIconsHeroku" src="images/Screen_Shot_2020-11-06_at_11 (2).png" width="45" height="45">
-        <img class = "socialMediaIcons" src="images/icons8-twitter-480.png" width="50" height="50">
-        <img class = "socialMediaIcons" src="images/Screen_Shot_2020-11-06_at_11.16.58_AM-removebg-preview.png" width="50" height="50">
-        <img class = "socialMediaIcons" src="images/icons8-linkedin-480.png" width="50" height="50">
-
-      </div>
-    </div>
-</div>      
 </div>
-    
-
-
+</div>
     
 
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>

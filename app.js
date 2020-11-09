@@ -15,8 +15,11 @@ app.get ("/", function(req, res){
 
 
 app.post("/", function (req, res) {
+    
+    const companyName = req.body.cName;
+    const businessPhone = req.body.bPhone;
     const email = req.body.email;
-    console.log(email);
+    console.log(companyName,businessPhone,email);
 
 
     const data = {
@@ -24,6 +27,11 @@ app.post("/", function (req, res) {
             {
                 email_address: email,
                 status: "subscribed",
+                merge_fields:{
+                    CNAME:companyName,
+                    PHONE:businessPhone,
+                    
+                }
                 
             }
         ]
