@@ -7,11 +7,28 @@ const app = express();
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
+app.set('view engine','ejs');
+
+var today = new Date();
+
+    var options = {
+        weekday:"short",
+        day:"numeric",
+        month:"long",
+
+    };
+
+    var day = today.toLocaleDateString("en-US", options);
+    
+
 
 app.get ("/", function(req, res){
-    res.sendFile(__dirname + "/pump-main.html");
-
+    console.log(day);
+    // res.sendFile(__dirname + "/list.ejs");
+    res.render("list", {kindOfDay:day});
 })
+
+
 
 
 app.post("/", function (req, res) {
