@@ -3,6 +3,10 @@
     background-color: #eeeeee;
     
   }
+  .navbarname{
+    opacity: 80%;
+  }
+
   .pumpIoTlogoNavbar{
     margin-left: 10%;
   }
