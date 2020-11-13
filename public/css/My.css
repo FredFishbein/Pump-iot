@@ -1,130 +1,96 @@
 
-/* Navbar section */
-.topnav{
-    background-color: #4b83c3;
-    height:40px;
-    
+  .navbar-paddingbottom{
+      padding-bottom: 60px;
   
+}
+  .navHeightIncrease{
+      height:85px;
+      opacity: 90%;
+}
+  .PumpIotImg{
+      padding-left: 20px;
+}
+@media (max-width: 992px) {
+  .navbar-collapse {
+      position: absolute;
+      top: 100px;
+      left: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      width: 35%;
+      transition: all 0.7s ease;
+      display: block;
+      border-top-right-radius:15px;
+      border-bottom-right-radius:15px;
   }
-  .envelop{
-    padding-top:0px;
-    padding-bottom: 0px;
-
+  .navbar-collapse.collapsing {
+      height: auto !important;
+      margin-left: 50%;
+      left: 100%;
+      transition: all 0.2s ease;
   }
-  .navbarname{
-    opacity: 80%;
-    background-color: #2b2d2e;
+  .navbar-collapse.show {
+      left: 0;
+  }
+}
+  .navbar-dark .navbar-nav .nav-link {
+    color: #4db2ec;
     font-weight: 600;
-    color:#050505;
-  }
-
-  .pumpIoTlogoNavbar{
-    margin-left: 2%;
-    margin-top: .5%;
-    margin-bottom: .5%;
-  }
-  .demoButton{
-    margin-left: 50px;
-    color:rgb(2, 2, 2);
-    font-family: 'poppins' sans-serif;
-    background-color:#4b83c3;
-  }
-  .date{
-    padding-left: 50px;
-    padding-top: 10px;
-    font-family: 'poppins' sans-serif;
-    color: #eeeeee;
-    
-  }
-  #navbarNavAltMarkup {
-    margin-left: 30%;
-  
-  }
-  
- /* <!This is the email logo top nav with text> */
-    .navbar-brand{
-      color:rgba(0, 0, 0, 0.822);
-      font-weight: bold;
-      font-size: x-small;
-    
-    }
-     /* <!This is the phone logo with text> */
-  .nav-linkText{
-    color:rgba(0, 0, 0, 0.822);
-    font-size: x-small;
-    font-weight: bold;
-    
-
-  }
-  
-   
-  .nav-item{
-    color:rgb(248, 245, 245);
-    padding-right: 20px;
-    padding-top: 8px;
-  }
-  .nav-item1{
-    padding-bottom: 4px;
-  }
-
-  .emailLogo{
-    padding-left: 70px;
-    padding-right: 5px;
-    
-  }
-  
-  .mailingListTextField{
-    padding-left: 50%;
   }
 
 
-  
 
   /* The smart industrial pump concept section */
 
   .pumpConcept{
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    padding-top:50px;
+    padding-top:30px;
     color:white;
+    width: auto;
+    height: 70px;
   }
+  
   .pumpConcept-description {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 2px;
     padding-bottom: 30px;
     font-weight: 200;
     font-size: 1.3rem;
     padding-right: 500px;
     padding-left: 500px;
     color:white;
+    
+  }
   
-  }
+
+
   .top-containerC{
-    width:auto;
-    height: 300px;
+    margin-top: 24px;
+    padding-bottom:20px;
     background-color: #1a2029;
-  }
-
-  /* END */
-
-  /* Pump with image icons */
-
-  .pumpImage{
     width:auto;
-    height: 550px;
-    background-color: white;
+    
+  } 
+  
+  
+  .pumpimg{
+    padding-top: 20px;
+    width: 45%;
+    height: auto;
   }
-  .topPumpImage{
-    height:100%;
-    width:auto;
+  @media screen and (max-width:1208px){
+  .pumpimg{
+    width:95%;
   }
+}
 
   /* Key Benefits section */
 
   .back {
     background-color: #eeeeee;
-    ;
   }
   
   .fourBenefits{
@@ -154,14 +120,11 @@
       padding-bottom: 60px;
       font-size: 1.25rem;
       font-weight: 350;
-      padding-left: 0%;
       color:rgba(8, 8, 8, 0.753)
   }
   .operationalEffciciencyText{
       text-align: left;
       padding-top: 50px;
-      padding-left: 0%;
-      padding-right: 5%;
       font-size: 1.25rem;
       font-weight: 350;
       color:rgba(8, 8, 8, 0.753)
@@ -210,14 +173,14 @@
 
 /* Blue Section with Demo Button */
   .blueSection {
-    background-image: -webkit-linear-gradient(bottom, #2e80dd, #4db2ec 100%);
-    background-image: -o-linear-gradient(bottom, #2e80dd, #4db2ec 100%);
-    background-image: linear-gradient(to top, #2e80dd, #4db2ec 100%);
-    width: auto;
-    text-align: center;
-    height: 475px;
-    padding-top: 20px;
-    font-family: 'Poppins', sans-serif;
+     background-image: -webkit-linear-gradient(bottom, #2e80dd, #4db2ec 100%);
+     background-image: -o-linear-gradient(bottom, #2e80dd, #4db2ec 100%);
+     background-image: linear-gradient(to top, #2e80dd, #4db2ec 100%);
+     width: auto;
+     text-align: center;
+     height: 475px;
+     padding-top: 20px;
+     font-family: 'Poppins', sans-serif;
     
   }
   .optimize{
@@ -228,61 +191,18 @@
       padding-bottom: 20px;
   }
   .demoButtonBlueSection{
-    margin-right:20px;
-    color: white;
-    padding: 10px 30px;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    opacity: 1;
-    transition: 0.3s;
+     margin-right:20px;
+     color: white;
+     padding: 10px 30px;
+     text-align: center;
+     font-size: 16px;
+     margin: 4px 2px;
+     opacity: 1;
+     transition: 0.3s;
   }
   .bemoButtonBlueSection:hover {opacity: 0.6}
 
-  /* END */
-
-  /* Bottom iot image */
-  
-  
-  .bottom{
-    background-color: #373a40;
-  }
-  .businessNameBottom{
-    text-align: center;
-    padding-top: 200px;
-    color:white;
-  }
- /* Container holding the image and the text */
-  .containerp {
-    position: relative;
-    /* background-size: cover; */
-    width: 100%;
-    height: 25%;
-    
-  }
-
-  /* Bottom right text */
-  .right {
-    position: absolute;
-    top: 2px;
-    right: 20px;
-    color: white;
-    font-size: 2.75rem;
-    font-weight: bold;
-    font-family: 'poppins', sans-serif;
-    padding-top: 50px;
-  }
  
-    .vl {
-      border-left: 2.5px solid white;
-      height: 225px;
-      position: absolute;
-      left: 50%;
-      margin-left: -3px;
-      top: 0;
-      margin-top: 30px;
-      
-    } 
 /* CSS for carousel */
 @media (min-width: 768px) {
   /* show 3 items */
@@ -459,21 +379,10 @@ margin-top: 2%;
   
 
 
-  /* Screen size section */
+ 
   
-  @media screen and (max-width: 1293px) {
-    .topnav {
-  
-    display:none;
-    }
-  }
-  @media screen and (max-width:990px){
-      .demoButton{
-        width:25%;
-        height:auto;
-        margin-right: 50px;
-      }
-    }
+ 
+
     @media screen and (max-width:1203px){
       .ipadImgText{
         padding-top: 5px;
@@ -484,15 +393,12 @@ margin-top: 2%;
         padding-top: 120px;
       }
     }
-    @media screen and (min-width:991px){
-    .socialImgs{
-      padding-top:50px;
-      }
-    }
+   
     @media screen and (min-width:768px) and (max-width:992px){
       .operationalEffciciencyText {
         font-size: 1.75rem;
         font-weight: 200;
+        
       }
     }
     @media screen and (min-width:768px) and (max-width:992px){
@@ -513,15 +419,15 @@ margin-top: 2%;
         padding-top: 10px;
       }
     }
-    @media screen and (min-width:768px) and (max-width:992px){
+    /* @media screen and (min-width:768px) and (max-width:992px){
       .pumpConcept-description{
-       font-size: 1.5rem;
+       font-size: 1rem;
        font-weight: 200;
        padding-right: 50px;
        padding-bottom: 20px;
        padding-left: 50px;
      }
-   }
+   } */
    @media screen and (min-width:768px) and (max-width:992px){
     .mobileImage{
       padding-bottom: 5px;
@@ -568,6 +474,16 @@ margin-top: 2%;
         display: none;
         }
       } 
+      @media screen and (min-width:768px) and (max-width:992px){
+        .navbarname{
+          height:50%;
+          }
+        } 
+        @media screen and (min-width:268px) and (max-width:992px){
+          .optimize{
+            padding-top: 50px;
+            }
+          } 
 
 
     /* END *
