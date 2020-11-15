@@ -23,8 +23,7 @@ var today = new Date();
 
 
 app.get ("/", function(req, res){
-    console.log(day);
-    // res.sendFile(__dirname + "/list.ejs");
+    res.sendFile(__dirname + "/list.ejs");
     res.render("list", {kindOfDay:day});
 })
 
@@ -84,6 +83,13 @@ app.post("/failure", function(req, res){
 app.post("/success", function(req, res){
     res.redirect("/");
 });
+app.get("/blog", function(req,res){
+    res.render("blog");
+   });
+
+
+
+
 
 app.listen(process.env.PORT ||3000, function(){
     console.log("Port is listening on 3000");

@@ -139,7 +139,7 @@
 
 .workSafetyText h1{
   /* font-size: 3.5rem; */
-  font-weight: 700;
+  font-weight: 650;
   text-align: left;
   padding-top: 50px;
   padding-left: 40px;
@@ -148,7 +148,7 @@
 }
 @media screen and (min-width:1000px){
   .workSafetyText h1{
-    padding-top:100px;
+    padding-top:80px;
     font-size: 3.5rem !important;
    
   }
@@ -159,6 +159,10 @@
   height: auto;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+.paragraphUnderLargeHeader{
+  padding-left: 50px;
+
 }
 
   /* The smart industrial pump concept section */
@@ -647,7 +651,52 @@ margin-top: 2%;
        padding-left: 50px;
      }
    } */
-   
+   @media screen and (min-width:768px) and (max-width:992px){
+    .mobileImage{
+      padding-bottom: 5px;
+     }
+   }
+  @media screen and (min-width:768px) and (max-width:992px){
+  .mobileImage{
+    padding-top: 70px;
+    padding-bottom: 5px; 
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:992px){
+  .MinimizeInText{
+    font-size: 3rem; 
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:992px){
+  .businessForm{
+    padding-top: 0px; 
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:992px){
+  .emailForm{
+    padding-top: 40px; 
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:992px){
+  .companyForm{
+    padding-top: 40px; 
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:992px){
+  .formBtn{
+    margin-top: 0px;
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:992px){
+    .button5{
+      margin-left: 28%;
+      }
+    }
+    @media screen and (min-width:768px) and (max-width:992px){
+      .date{
+        display: none;
+        }
+      } 
       @media screen and (min-width:768px) and (max-width:992px){
         .navbarname{
           height:50%;
