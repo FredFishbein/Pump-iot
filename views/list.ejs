@@ -11,7 +11,7 @@
   <link rel="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <link rel="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <link rel="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <link rel="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
+  <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
   <link rel="apple-touch-icon" sizes="180x180" href="images/umpiot-removebg-preview__1_-removebg-preview.png">
   <link rel="icon" type="image/png" sizes="32x32" href="images/umpiot-removebg-preview__1_-removebg-preview.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/umpiot-removebg-preview__1_-removebg-preview.png">
@@ -25,8 +25,10 @@
 
 </head>
 <body>
- 
 
+  <!-- /* Top image with text overlay----BEGIN */ -->
+
+ 
   <div class ="navbar-paddingbottom">
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark navHeightIncrease">
     <a class="navbar-brand" href=""><img src="images/umpiot-removebg-preview (1).png" class = "PumpIotImg" height= "35"/></a>
@@ -57,27 +59,46 @@
       </div>
       </nav>
     </div>
-  
+    <!-- /* Top image with text overlay----END */ -->
 
 
+
+    <!-- /* Navbar with flyin tab to right---Begin */ -->
     
-  <div class ="top-containerC" style="height:290px;">
-    <h1 class = "pumpConcept">The Smart Industrial Pump Concept</h1>
-  </div>
+   
+    <div class="card">
+
+      <div class="row text-over-image">
     
-  <div>
-    <img src="images/PumpWithIcons.png" class="rounded mx-auto d-block pumpimg" alt="...">
-  </div>
+        <div class="col-6 image"><img src="images/waterT.png"/></div>
+    
+        <div class="col-12 text"><h1 style =font-size:3.5vw;>Maximize Your pumping operations</h1><h1 style =font-size:2.5vw;>
+          and efficiency with the smart pumping solution.</h1>
+          <button type="button" class="btn btn-primary learnMoreButton">Learn More</button>
+          
+          </div>
+    
+      </div>
+    
+    </div>
 
-
+    <!-- /* Navbar with flyin tab to right---END */ -->
+    <div class="row">
+      <div class="col-6 workSafetyText"><h1 style =font-size:5.5vw;>Workplace Safety, Risk, and Efficiency Management for Construction, Energy & Industrial Markets</h1></div>
+      <div class="col-6"></div>
+    </div>
+   
+ 
   
+    <!-- /* Key benefits section with txt----Begin */ -->
+
 <div class="container-top">
     <div class="back fluid" style="width:100%;height:auto;">
         
           <div class="container">
             <div class="row">
                 <div class="col-lg operationalEffciciencyText"> 
-                  <div class="col-lg"><h1>KEY BENEFITS</h1></div> 
+                  <div class="col-lg "><h1>KEY BENEFITS</h1></div> 
                 <p><strong>Operational Efficiency </strong>• Smart pump systems include product-specific sensors that monitor your assets and store data in the cloud, enabling maintenance personnel to spend more time diagnosing and managing assets and less time in manual checkups.</p>
                 <p class = "predicitivePclass"><strong>Predictive maintenance</strong> • Replace preventative maintenance with analytic insights to proactively service parts before failure occurs, improving uptime and reducing life-cycle costs.</p>
                 </div>
@@ -91,7 +112,7 @@
     </div>
 </div>
 
-
+<!-- /* Key benefits section with txt----End */ -->
 
 
 
@@ -203,22 +224,10 @@
     </a>
   </div>
 </div>
-   
 
- <!-- <div class = "blackSectionWithText" style="width:100%;height:300px;">
-  <form action = "/" class="mailingListTextField" method="POST">
-    <h1 class = "wantMoreText">Want to know more?</h1>
-  <div class ="container">
-  <div class = "row">
-    <div class ="emailForm"><input class="form-control mr-lg-6" name ="email" type="search" placeholder="Email Address"></div>
-    <div class = "companyForm"><input class="form-control mr-lg-6" name ="cName" type="search" placeholder="Company Name"></div>
-    <div class ="businessForm"><input class="form-control mr-lg-6" name ="bPhone" type="search" placeholder="Business Phone"></div>
-  
-    <button class="btn btn-outline-info formBtn" type="submit">Request Info</button>
-  </form>  
-</div>
-</div>
-</div> -->
+<%- include("footer")-%>
+
+
     
 
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
