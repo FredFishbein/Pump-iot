@@ -162,14 +162,14 @@ padding-top: 20px;
 }
 #responsivePhoneImg{
   padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
-
+/* when the ipad is tilted vertical and the screen is smaller */
 @media screen and (max-width:780px){
   #responsivePhoneImg{
-   height: 40vw;
-   padding-top: 40px;
+   height: 48vw;
+   padding-top: 50px;
    padding-bottom: 20px;
    
   }
