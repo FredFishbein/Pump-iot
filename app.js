@@ -30,12 +30,16 @@ app.get ("/", function(req, res){
 
 
 
-app.post("/", function (req, res) {
-    
+app.post("/contact", function (req, res) {
+    const firstName = req.body.fName;
+    const lastName = req.body.lName;
     const companyName = req.body.cName;
     const businessPhone = req.body.bPhone;
     const email = req.body.email;
-    console.log(companyName,businessPhone,email);
+    const messageBody = req.body.mBody;
+    const title =req.body.title;
+    const cityName =req.body.citiesName;
+    // console.log(firstName,lastName,companyName,businessPhone,email);
 
 
     const data = {
@@ -45,7 +49,13 @@ app.post("/", function (req, res) {
                 status: "subscribed",
                 merge_fields:{
                     CNAME:companyName,
-                    PHONE:businessPhone,
+                    BPHONE:businessPhone,
+                    FNAME:firstName,
+                    LNAME:lastName,
+                    MESSAGE:messageBody,
+                    TITLE:title,
+                    CITY:cityName
+
                     
                 }
                 
