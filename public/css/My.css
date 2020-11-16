@@ -1,14 +1,9 @@
 
 
-/* Top image with text overlay */
-
-
 .card { /* Step 1 */
   margin-top: 24px;
   overflow: hidden;
   border:0px;
-  
-  
   
 }
 
@@ -61,10 +56,6 @@
 /* Button under the center text---END */
 
 
-
-
-
-/* Top image with text overlay----END */
 
 
 /* Navbar with flyin tab to right---Begin */
@@ -139,24 +130,19 @@
   font-weight: 650;
   text-align: left;
   padding-top: 50px;
-  padding-left: 40px;
+  padding-left: 50px;
   padding-bottom: 50px; 
   color:rgba(0, 0, 0, 0.746);
 }
-@media screen and (min-width:1000px){
-  .workSafetyText h1{
-    padding-top:80px;
-    font-size: 3.5rem !important;
-   
-  }
+.workSafetyText h4{
+  padding-left: 50px;
 }
+
+
+
 /* PHONE IMG TO THE RIGHT OF TEXT  */
-.responsivePhoneImg {
-  width: 100%;
-  height: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+
+
 .paragraphUnderLargeHeader{
   padding-left: 50px;
 
@@ -626,21 +612,21 @@ margin-top: 2%;
       }
     }
    
-    @media screen and (min-width:768px) and (max-width:992px){
+    @media screen and (min-width:768px) {
       .operationalEffciciencyText {
         font-size: 1.75rem;
-        font-weight: 200;
+        font-weight: 500;
         
       }
     }
-    @media screen and (min-width:768px) and (max-width:992px){
+    @media screen and (min-width:768px){
        .minimizeInefficienciesText{
         font-size: 1.75rem;
-        font-weight: 200;
+        font-weight: 500;
       }
     }
 
-    @media screen and (min-width:768px) and (max-width:992px){
+    @media screen and (max-width:768px) {
       .benefitsDisappear{
         height: 0px;
         display: none;
