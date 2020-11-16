@@ -15,12 +15,15 @@
   text-align: center;
   color:#f9f9fa;
   font-family: 'poppins',sans-serif;
+  font-size: 3.5rem;
   
 
 }
-@media screen and (max-width:1400px){
+@media screen and (max-width:800px){
   .row.text-over-image h1{
-    font-size:6.5vw !important;
+    font-size:2rem !important;
+    padding-left: 40px;
+    padding-right: 40px;
     
 
   }
@@ -31,7 +34,7 @@
 .text { /* Step 3 */
   position:absolute;
   /* transform: translateX(-100%); */
-  top:25%;
+  top:20%;
   left:.5%;
   
 }
@@ -131,18 +134,18 @@
   text-align: left;
   padding-top: 50px;
   padding-left: 50px;
-  padding-bottom: 50px; 
+  padding-bottom: 20px; 
   color:rgba(0, 0, 0, 0.746);
 }
 .workSafetyText h4{
   padding-left: 50px;
 }
 
-@media screen and (min-width:1000px){
+@media screen and (max-width:1050px){
   .workSafetyText h1{
     padding-top:100px;
-    padding-left: 180px;
-    font-size: 3.5rem !important;
+    padding-left: 50px;
+    font-size: 2.5rem !important;
    
   }
 }
