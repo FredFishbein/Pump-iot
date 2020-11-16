@@ -138,8 +138,14 @@
   padding-left: 50px;
 }
 
-
-
+@media screen and (min-width:1000px){
+  .workSafetyText h1{
+    padding-top:100px;
+    padding-left: 180px;
+    font-size: 3.5rem !important;
+   
+  }
+}
 /* PHONE IMG TO THE RIGHT OF TEXT  */
 
 
