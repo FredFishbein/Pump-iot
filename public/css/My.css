@@ -140,6 +140,9 @@
 .workSafetyText h4{
   padding-left: 50px;
 }
+.col-md-5 .workSafetyText{
+  scroll-padding-right: 0px;
+}
 
 @media screen and (max-width:1050px){
   .workSafetyText h1{
