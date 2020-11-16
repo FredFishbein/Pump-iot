@@ -5,10 +5,13 @@
   padding-bottom: 60px;
 
 }
-.navHeightIncrease{
+.grayNavbarIncreaseHeight{
   height:85px;
-  /* opacity: 90%; */
+  
 }
+
+                /* -------------Top navbar logo------------- */
+
 .PumpIotImg{
   padding-left: 20px;
   
@@ -133,24 +136,20 @@ padding-top: 20px;
 
 /* Testing workplace safety section css */
 
-.workSafetyText h1{
-  font-size: 3.5rem;
+.leftSideColumnWithText h1{
+  font-size: 3rem;
   font-weight: 650;
   text-align: left;
-  padding-top: 50px;
-  padding-left: 70px;
-  padding-bottom: 20px; 
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-bottom: 200px; 
   color:rgba(0, 0, 0, 0.746);
 }
-.workSafetyText h4{
-  padding-left: 70px;
-}
-.col-md-5 {
-  scroll-padding-right: 0px;
-}
+
+
 
 @media screen and (max-width:1050px){
-  .workSafetyText h1{
+  .leftSideColumnWithText h1{
     padding-top:100px;
     padding-left: 70px;
     font-size: 1.5rem !important;
@@ -158,10 +157,22 @@ padding-top: 20px;
   }
 }
 
-
 .paragraphUnderLargeHeader{
   padding-left: 50px;
+}
+#responsivePhoneImg{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 
+
+@media screen and (max-width:780px){
+  #responsivePhoneImg{
+   height: 40vw;
+   padding-top: 40px;
+   padding-bottom: 20px;
+   
+  }
 }
 
   /* The smart industrial pump concept section */
@@ -216,27 +227,6 @@ padding-top: 20px;
     background-color: #eeeeee;
   }
   
-  
-  .fourBenefits{
-      width:100%;
-  }
-  .top{
-      margin-top: 50px;
-      font-family: poppins;
-      text-align: left;
-  }
-  .second{
-    margin-top: 105px;
-    font-family: poppins;
-    text-align: left;
-  }
-  #keyBenefitsText{
-      padding-top: 20px;
-      padding-bottom: 5px;
-      color:rgba(8, 8, 8, 0.753);
-      font-weight: bold;
-      
-  }
  
   .minimizeInefficienciesText{
       text-align: left;
@@ -257,42 +247,7 @@ padding-top: 20px;
   .benefitsDisappear{
     color:#eeeeee;
   }
- 
- 
 
-  /* END */
-/* Black Section with Text */
-    .blackSectionWithText{
-    background-color: #1a2029;    
-    width: auto;
-    text-align: center;
-    height: 500px;
-    font-family: 'Poppins', sans-serif;
-    
-    }
-    .mobileImage{
-      padding-top: 50px;
-      padding-bottom: 40px;
-
-    }
-    .phoneImgText{
-        color:white;
-        padding-top: 70px;
-        padding-bottom: 40px;
-        padding-right: 50px;
-        text-align: left;
-        font-weight: lighter;
-        
-    }
-    
-    .minimizeText{
-      font-weight: 200;
-    }
-
-    .remote{
-      padding-top:20px;
-      padding-bottom: 30px;
-    }
 
 
 /* Blue Section with Demo Button */
@@ -336,109 +291,7 @@ padding-top: 20px;
 
 /* Blue Section with Demo Button-----END */
  
-/* CSS for carousel */
-@media (min-width: 768px) {
-  /* show 3 items */
-  .carousel-inner .active,
-  .carousel-inner .active + .carousel-item,
-  .carousel-inner .active + .carousel-item + .carousel-item {
-    display: block;
-  }
 
-  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
-  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
-    transition: none;
-  }
-
-  .carousel-inner .carousel-item-next,
-  .carousel-inner .carousel-item-prev {
-    position: relative;
-    transform: translate3d(0, 0, 0);
-  }
-
-  .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
-    position: absolute;
-    top: 0;
-    right: -33.3333%;
-    z-index: -1;
-    display: block;
-    visibility: visible;
-  }
-
-  /* left or forward direction */
-  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
-  .carousel-item-next.carousel-item-left + .carousel-item,
-  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
-  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
-    position: relative;
-    transform: translate3d(-100%, 0, 0);
-    visibility: visible;
-  }
-
-  /* farthest right hidden item must be abso position for animations */
-  .carousel-inner .carousel-item-prev.carousel-item-right {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    display: block;
-    visibility: visible;
-  }
-
-  right or prev direction
-  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
-  .carousel-item-prev.carousel-item-right + .carousel-item,
-  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
-  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
-    position: relative;
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-    display: block;
-    visibility: visible;
-  }
-}
-/* END */
-/* <!---H1 about cards---> */
-.relatedExamples{
-      color:rgba(8, 8, 8, 0.664);
-      font-size: 2rem;
-      font-weight: bold;
-      font-family: 'poppins',sans-serif;
-      padding-top: 40px;
-      padding-bottom: 20px;
-}
-.card-title{
-  text-align: center;
-  font-family: 'poppins',sans-serif;
-  color:rgba(8, 8, 8, 0.664);
-  font-size: 1rem;
-  font-weight: bold;
-  font-stretch: expanded;
-}
-
-/* Button for the cards */
-.button {
-  background-color: #4db2ec; /* Green */
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 16px;
-  
-
-}
-
-/* BUTTON FOR THE CAROUSEL */
-.button5 {
-margin-left: 40%;
-margin-top: 2%;
-
-}
 
 
 
