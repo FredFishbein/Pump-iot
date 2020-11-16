@@ -249,20 +249,31 @@ padding-top: 20px;
       text-align: left;
       padding-top: 48px;
       padding-bottom: 60px;
-      font-size: 1.25rem;
-      font-weight: 450;
+      font-size: 1rem;
+      padding-left: 20px;
       color:rgba(8, 8, 8, 0.753)
+  }
+  @media screen and (max-width:770px){
+    .minimizeInefficienciesText{
+      padding-top: 0px;
+    }
   }
   .operationalEffciciencyText{
       text-align: left;
       padding-top: 50px;
-      font-size: 1.25rem;
-      font-weight: 450;
+      font-size: .75rem;
+      font-weight: 900;
+      padding-left: 20px;
       color:rgba(8, 8, 8, 0.753)
   }
   /* This erases the second columns benefits */
   .benefitsDisappear{
     color:#eeeeee;
+  }
+  @media screen and (max-width:770px){
+    .benefitsDisappear{
+      height:0px;
+    }
   }
 
 
@@ -292,6 +303,13 @@ padding-top: 20px;
       font-size: 3rem;
       font-family: 'poppins',sans-serif;
       padding-bottom: 20px;
+  }
+  @media screen and (max-width:1025px){
+    .optimize{
+      padding-top: 70px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
   }
   .demoButtonBlueSection{
      margin-right:20px;
