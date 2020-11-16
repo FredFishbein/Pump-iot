@@ -156,6 +156,14 @@ padding-top: 20px;
    
   }
 }
+@media screen and (max-width:766px){
+  .leftSideColumnWithText h1{
+    padding-top:100px;
+    padding-left: 50px;
+    font-size: 1.5rem !important;
+   
+  }
+}
 
 .paragraphUnderLargeHeader{
   padding-left: 50px;
@@ -171,6 +179,15 @@ padding-top: 20px;
    height: 48vw;
    padding-top: 50px;
    padding-bottom: 20px;
+   
+  }
+}
+@media screen and (max-width:766px){
+  #responsivePhoneImg{
+   height: 400px;
+   padding-top: 50px;
+   padding-bottom: 20px;
+   padding-left: 95px;
    
   }
 }
