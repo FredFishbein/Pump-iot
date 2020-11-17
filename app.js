@@ -2,6 +2,9 @@ const express = require("express");
 const bodyParser = require ("body-parser");
 const https = require("https");
 const request = require("request");
+const { JSDOM } = require( "jsdom" );
+const { window } = new JSDOM( "" );
+const $ = require( "jquery" )( window );
 
 const app = express();
 
