@@ -1,10 +1,48 @@
+#testingNav{
+  position: relative;
+  margin-top: 40px;
+  padding-bottom: 0px;
+}
+
+#dark2{
+  background-color:  rgba(0, 0, 0, 0.868);
+  height:96px;
+  padding-top:15px
+}
+.infoOnNavText{
+  margin-top:60px;
+}
+.navbar-brand{
+  margin-right:.50rem;
+}
+
+@media screen and (max-width:1500px){
+  .dark2{
+    display: none;
+  }
+}
+@media screen and (max-width:1500px){
+  #testingNav{
+    display: none;
+  }
+}
+#envelopLogo_Navbar{
+  padding-top: 40px;
+  padding-left: 25px;
+  padding-right:0px;
+}
+#envelopLogo_Navbar text{
+  padding-top: 20px;
+}
+
+
+
+
+
 
 /* ------------------------------NAVABAR-------------------------BEGIN */
 
-.navbar-paddingbottom{
-  padding-bottom: 60px;
 
-}
 .grayNavbarIncreaseHeight{
   height:85px;
   
@@ -66,7 +104,7 @@
 
 /* THIS IS THE TOP PICTURE WITH WHITE TEXT */
 .card { 
-  margin-top: 24px;
+  
   overflow: hidden;
   border:0px;
   
@@ -89,9 +127,11 @@
   padding-left: 40px;
   padding-right: 40px;
     
-
   }
 }
+
+
+
 .col-md-6{
   padding-right: 0px;
   padding-left: 0px;;
@@ -102,9 +142,18 @@
 
 .text { /* Step 3 */
 position:absolute;
-top:20%;
+top:30%;
 left:.5%; 
 }
+@media screen and (min-width:1500px){
+.text{
+  position:absolute;
+  top:20%;
+  left:.5%;
+      
+    }
+  }
+
 
 .card img:first-child { 
 height: 100%;
