@@ -35,7 +35,7 @@
   padding-top: 20px;
 }
 #grayButtons {
-  margin-top:18px;
+  margin-top:22px;
 }
 
 
@@ -60,11 +60,10 @@
 @media (max-width: 992px) {
 .navbar-collapse {
   position: absolute;
-  top: 105px;
+  top: 100px;
   left: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 60px;
   width: 33%;
   transition: all 0.7s ease;
   display: block;
@@ -94,7 +93,7 @@
 }
 }
 .nav-item{
-  padding-top: 20px;
+  padding-top: 17px;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
