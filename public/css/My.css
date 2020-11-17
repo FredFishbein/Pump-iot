@@ -40,12 +40,11 @@
 .navbar-collapse.show {
   left: 0;
 }
-}
 .navbar-dark .navbar-nav .nav-link {
-color: #4db2ec;
-margin-top:10px;
-font-weight: 500;
-font-size:larger;
+  color: #4db2ec;
+  margin-top:10px;
+  font-weight: 500;
+  font-size:larger; 
 }
 @media screen and (max-width:400px){
 .navbar-dark .navbar-nav .nav-link{
@@ -53,7 +52,13 @@ font-size:larger;
 }
 }
 .nav-item{
-padding-top: 20px;
+  padding-top: 20px;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  font-weight: 550;
+  font-size: 19px;
+
 }
 
 /* ------------------------------NAVABAR-------------------------END */
@@ -68,7 +73,6 @@ padding-top: 20px;
 
 
 .row.text-over-image { /* Step 2 */
-
   width: 200%;
   height:600px;
   text-align: center;
@@ -79,10 +83,10 @@ padding-top: 20px;
 
 }
 @media screen and (max-width:800px){
-  .row.text-over-image h1{
-    font-size:2rem !important;
-    padding-left: 40px;
-    padding-right: 40px;
+.row.text-over-image h1{
+  font-size:2rem !important;
+  padding-left: 40px;
+  padding-right: 40px;
     
 
   }
@@ -90,42 +94,29 @@ padding-top: 20px;
 .col-md-6{
   padding-right: 0px;
   padding-left: 0px;;
-  z-index: 1;
+  
 }
 
 
 
 .text { /* Step 3 */
-  position:absolute;
-  /* transform: translateX(-100%); */
-  top:20%;
-  left:.5%;
-  
+position:absolute;
+top:20%;
+left:.5%; 
 }
 
-.card img:first-child { /* Step 4 */
-
-  height: 100%;
-
-  width: 110%;
-
-  object-fit: cover;
-  
-
+.card img:first-child { 
+height: 100%;
+width: 110%;
+object-fit: cover;
 }
 
 /* Button under the center text---BEGIN */
 .learnMoreButton{
-  
-  margin-top: 20px;
-  margin-right: 10px;
+margin-top: 20px;
+margin-right: 10px;
 }
 /* Button under the center text---END */
-
-
-
-
-
 
 .row {
   display: flex;
@@ -144,128 +135,141 @@ padding-top: 20px;
   padding-left: 200px;
   padding-bottom: 200px; 
   color:rgba(0, 0, 0, 0.746);
+  height:675px;
 }
-
-
-
-@media screen and (max-width:1050px){
+@media screen and (max-width:1024px){
   .leftSideColumnWithText h1{
-    padding-top:100px;
-    padding-left: 70px;
-    font-size: 1.5rem !important;
-   
+    height:450px;  
+    }
+  }
+  
+@media screen and (max-width:1050px){
+.leftSideColumnWithText h1{
+  padding-top:100px;
+  padding-left: 70px;
+  font-size: 1.5rem !important; 
   }
 }
 @media screen and (max-width:766px){
-  .leftSideColumnWithText h1{
-    padding-top:100px;
-    padding-left: 50px;
-    font-size: 1.5rem !important;
-   
+.leftSideColumnWithText h1{
+  padding-top:100px;
+  padding-left: 50px;
+  font-size: 1.5rem !important;
   }
 }
 
 .paragraphUnderLargeHeader{
   padding-left: 50px;
 }
+
+.mobileIoTPlatformText{
+  font-size: 2rem;
+  color:#3366cc;
+  text-align: left;
+}
+@media screen and (max-width:1025px){
+.mobileIoTPlatformText{  
+  font-size :1.5rem; 
+  }
+}
+
 #responsivePhoneImg{
   padding-bottom: 20px;
   padding-top: 30px;
+  margin-top: 40px;
 }
 
 /* when the ipad is tilted vertical and the screen is smaller */
 @media screen and (max-width:780px){
-  #responsivePhoneImg{
-   height: 48vw;
-   padding-top: 50px;
-   padding-bottom: 20px;
-   
+#responsivePhoneImg{
+  height: 48vw;
+  padding-top: 50px;
+  padding-bottom: 20px; 
   }
 }
 @media screen and (max-width:766px){
-  #responsivePhoneImg{
-   height: 400px;
-   padding-top: 50px;
-   padding-bottom: 20px;
-   padding-left: 95px;
-   
+#responsivePhoneImg{
+  height: 400px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 95px; 
   }
 }
 
   /* The smart industrial pump concept section */
 
-  .pumpConcept{
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    padding-top:30px;
-    color:white;
-    width: auto;
-    height: 70px;
+.pumpConcept{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding-top:30px;
+  color:white;
+  width: auto;
+  height: 70px;
   }
   
-  .pumpConcept-description {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    padding-top: 2px;
-    padding-bottom: 30px;
-    font-weight: 200;
-    font-size: 1.3rem;
-    padding-right: 500px;
-    padding-left: 500px;
-    color:white;
-    
+.pumpConcept-description {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 30px;
+  font-weight: 200;
+  font-size: 1.3rem;
+  padding-right: 500px;
+  padding-left: 500px;
+  color:white;  
   }
   
 
 
-  .top-containerC{
-    margin-top: 24px;
-    padding-bottom:20px;
-    background-color: #1a2029;
-    width:auto;
-    
+.top-containerC{
+  margin-top: 24px;
+  padding-bottom:20px;
+  background-color: #1a2029;
+  width:auto;  
   } 
   
   
-  .pumpimg{
-    padding-top: 20px;
-    width: 45%;
-    height: auto;
+.pumpimg{
+  padding-top: 20px;
+  width: 45%;
+  height: auto;
   }
-  @media screen and (max-width:1208px){
-  .pumpimg{
-    width:95%;
+@media screen and (max-width:1208px){
+.pumpimg{
+  width:95%;
   }
 }
 
   /* Key Benefits section */
 
-  .back {
-    background-color: #eeeeee;
+.back {
+  background-color: #eeeeee;
   }
   
  
-  .minimizeInefficienciesText{
-      text-align: left;
-      padding-top: 48px;
-      padding-bottom: 60px;
-      font-size: 1rem;
-      padding-left: 20px;
-      color:rgba(8, 8, 8, 0.753)
+.minimizeInefficienciesText{
+  text-align: left;
+  padding-top: 48px;
+  padding-bottom: 60px;
+  font-size: 1rem;
+  padding-left: 20px;
+  color:rgba(8, 8, 8, 0.753)
   }
-  @media screen and (max-width:770px){
-    .minimizeInefficienciesText{
-      padding-top: 0px;
-    }
+
+@media screen and (max-width:770px){
+.minimizeInefficienciesText{
+  padding-top: 0px;
   }
-  .operationalEffciciencyText{
-      text-align: left;
-      padding-top: 50px;
-      font-size: .75rem;
-      font-weight: 900;
-      padding-left: 20px;
-      color:rgba(8, 8, 8, 0.753)
-  }
+}
+
+.operationalEffciciencyText{
+  text-align: left;
+  padding-top: 50px;
+  font-size: .75rem;
+  font-weight: 900;
+  padding-left: 20px;
+  color:rgba(8, 8, 8, 0.753)
+}
   /* This erases the second columns benefits */
   .benefitsDisappear{
     color:#eeeeee;
@@ -493,6 +497,15 @@ padding-top: 20px;
     margin-right:0;
     font-weight:600
   }
+}
+.site-footer h6{
+  padding-left: 15px;
+}
+.text-justify {
+  padding-left: 15px;
+}
+.footer-links{
+  padding-left: 15px;
 }
 
 /* FOOTER END SECTION */
