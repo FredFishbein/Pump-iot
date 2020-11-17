@@ -34,6 +34,9 @@
 #envelopLogo_Navbar text{
   padding-top: 20px;
 }
+#grayButtons {
+  margin-top:18px;
+}
 
 
 
@@ -137,8 +140,6 @@
   padding-left: 0px;;
   
 }
-
-
 
 .text { /* Step 3 */
 position:absolute;
