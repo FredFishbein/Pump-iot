@@ -1,3 +1,4 @@
+
 #testingNav{
   position: relative;
   margin-top: 85px;
@@ -166,8 +167,41 @@ object-fit: cover;
 /* Button under the center text---BEGIN */
 .learnMoreButton{
 margin-top: 20px;
-margin-right: 10px;
+margin-right: 20px;
+padding-top: 12px;
+border-bottom-width: 8px;
+padding-left: 25px;
+padding-right: 25px;
+font-size: 1.25rem;
+border-radius: 8px;
+
 }
+@media screen and (max-width:1025px){
+   .learnMoreButton{
+    padding-top: 16px;
+    border-bottom-width: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    
+    }
+  }
+  @media screen and (max-width:500px){
+    .learnMoreButton{
+     padding-top: 16px;
+     margin-left: 10px;
+     border-bottom-width: 8px;
+     padding-left: 30px;
+     padding-right: 30px;
+     font-size: 1.25rem;
+     border-radius: 8px;
+     
+     }
+   }
+
+
+
 /* Button under the center text---END */
 
 .row {
@@ -361,6 +395,11 @@ margin-right: 10px;
       height:400px;
     }
   }
+  @media screen and (max-width:500px){
+    .blueSection{
+      height: 600px;
+    }
+  }
   .optimize{
       padding-top: 40px;
       padding-left: 20px;
@@ -377,6 +416,11 @@ margin-right: 10px;
       padding-right: 40px;
     }
   }
+  @media screen and (max-width:500px){
+    .optimize{
+      padding-bottom: 30px;
+    }
+  }
   .demoButtonBlueSection{
      margin-right:20px;
      padding-bottom: 20px;
@@ -388,7 +432,29 @@ margin-right: 10px;
      opacity: 1;
      transition: 0.3s;
   }
-  .bemoButtonBlueSection:hover {opacity: 0.6}
+  .bemoButtonBlueSection:hover {opacity: .10}
+
+  @media screen and (max-width:1025px){
+    .demoButtonBlueSection{
+     padding-top: 16px;
+     border-bottom-width: 8px;
+     padding-left: 30px;
+     padding-right: 30px;
+     font-size: 1.25rem;
+     border-radius: 8px;
+     
+     }
+   }
+   @media screen and (max-width:770px){
+    .demoButtonBlueSection{
+    margin-right: 12px;
+    
+    
+     
+     }
+   }
+
+
 
 /* Blue Section with Demo Button-----END */
  

@@ -2,15 +2,21 @@ const express = require("express");
 const bodyParser = require ("body-parser");
 const https = require("https");
 const request = require("request");
-const { JSDOM } = require( "jsdom" );
-const { window } = new JSDOM( "" );
-const $ = require( "jquery" )( window );
+
+    
+
 
 const app = express();
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 app.set('view engine','ejs');
+
+
+
+
+
+
 
 var today = new Date();
 
@@ -24,6 +30,9 @@ var today = new Date();
     var day = today.toLocaleDateString("en-US", options);
     
 
+    
+
+    
 
 app.get ("/", function(req, res){
     res.sendFile(__dirname + "/list.ejs");
@@ -105,6 +114,8 @@ app.get("/about", function(req,res){
    app.get("/contact", function(req,res){
     res.render("contact");
    });   
+
+  
 
 
 
