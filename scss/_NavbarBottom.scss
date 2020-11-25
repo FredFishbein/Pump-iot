@@ -1,0 +1,42 @@
+#testingNav{
+    position: relative;
+    margin-top: 85px;
+    padding-bottom: 0px;
+    height:60px;
+}
+  
+#dark2{
+    background-color:  rgba(0, 0, 0, 0.868);
+    height:50px;
+    padding-top:53px
+}
+.infoOnNavText{
+    margin-bottom:40px;
+    color:#566787
+}
+.navbar-brand{
+    margin-right:.50rem;
+}
+  
+@media screen and (max-width:1500px){
+.dark2{
+    display: none;
+}
+}
+
+@media screen and (max-width:1500px){
+#testingNav{
+    display: none;
+}
+}
+#envelopLogo_Navbar{
+    padding-bottom: 45px;
+    padding-left: 25px;
+    padding-right:0px;
+}
+#envelopLogo_Navbar text{
+    padding-top: 20px;
+}
+#grayButtons {
+    margin-bottom:55px;
+}

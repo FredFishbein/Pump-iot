@@ -1,0 +1,73 @@
+.blueSection {
+    background-image: -webkit-linear-gradient(bottom, #2e80dd, #4db2ec 100%);
+    background-image: -o-linear-gradient(bottom, #2e80dd, #4db2ec 100%);
+    background-image: linear-gradient(to top, #2e80dd, #4db2ec 100%);
+    width: auto;
+    text-align: center;
+    height: 475px;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+   
+ }
+
+@media screen and (min-width:700px){
+.blueSection{
+    height:400px;
+}
+}
+@media screen and (max-width:500px){
+.blueSection{
+    height: 600px;
+}
+}
+.optimize{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:whitesmoke;
+    font-size: 3rem;
+    font-family: 'poppins',sans-serif;
+    padding-bottom: 20px;
+}
+@media screen and (max-width:1025px){
+.optimize{
+    padding-top: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+}
+@media screen and (max-width:500px){
+.optimize{
+    padding-bottom: 30px;
+}
+}
+
+.demoButtonBlueSection{
+    margin-right:20px;
+    padding-bottom: 20px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+}
+ .bemoButtonBlueSection:hover {opacity: .10}
+
+@media screen and (max-width:1025px){
+.demoButtonBlueSection{
+    padding-top: 16px;
+    border-bottom-width: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    
+}
+}
+@media screen and (max-width:770px){
+.demoButtonBlueSection{
+    margin-right: 12px;
+    }
+  }

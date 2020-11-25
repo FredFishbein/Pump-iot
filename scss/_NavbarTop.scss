@@ -1,0 +1,55 @@
+.grayNavbarIncreaseHeight{
+    height:85px;
+    opacity:90%;
+}
+
+.PumpIotImg{
+    padding-left: 20px;
+    
+  }
+@media (max-width: 992px) {
+.navbar-collapse {
+    position: absolute;
+    top: 100px;
+    left: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 33%;
+    transition: all 0.7s ease;
+    display: block;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+}
+  
+.navbar-collapse.collapsing {
+    height: auto !important;
+    margin-left: 50%;
+    left: 100%;
+    transition: all 0.2s ease;
+}
+.navbar-collapse.show {
+    left: 0;
+}
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #4db2ec;
+    margin-top:10px;
+    font-weight: 500;
+    font-size:larger; 
+}
+
+@media screen and (max-width:400px){
+.navbar-dark .navbar-nav .nav-link{
+    margin-top:5%;
+}
+}
+
+.nav-item{
+    padding-top: 17px;
+}
+  
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    font-weight: 550;
+    font-size: 19px;
+  
+}

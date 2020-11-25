@@ -1,0 +1,84 @@
+.leftSideColumnWithText h1{
+    font-size: 3rem;
+    font-weight: 650;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-bottom: 200px; 
+    color:rgba(0, 0, 0, 0.746);
+    height:675px;
+  }
+@media screen and (max-width:1024px){
+.leftSideColumnWithText h1{
+    height:450px;  
+}
+}
+    
+@media screen and (max-width:1050px){
+.leftSideColumnWithText h1{
+    padding-top:100px;
+    padding-left: 70px;
+    font-size: 1.5rem !important; 
+}
+}
+@media screen and (max-width:766px){
+.leftSideColumnWithText h1{
+    padding-top:100px;
+    padding-left: 50px;
+    font-size: 1.5rem !important;
+}
+}
+  
+.paragraphUnderLargeHeader{
+    padding-left: 50px;
+}
+  
+.mobileIoTPlatformText{
+    font-size: 2rem;
+    color:#3366cc;
+    text-align: left;
+}
+@media screen and (max-width:1025px){
+.mobileIoTPlatformText{  
+    font-size :1.5rem; 
+}
+}
+  
+#responsivePhoneImg{
+    padding-bottom: 20px;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+/* when the ipad is tilted vertical and the screen is smaller */
+@media screen and (max-width:780px){
+#responsivePhoneImg{
+    height: 48vw;
+    padding-top: 50px;
+    padding-bottom: 20px; 
+}
+}
+@media screen and (max-width:766px){
+#responsivePhoneImg{
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 95px; 
+}
+}
+/* Phone img increase in size over 1700px */
+@media screen and (min-width:1300px){
+#responsivePhoneImg{
+    height: 600px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 95px; 
+}
+}

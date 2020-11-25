@@ -1,0 +1,110 @@
+@import '_AboutPage';
+@import '_BlogPage';
+@import '_ContactPage';
+@import '_FailPage';
+@import 'Footer';
+@import '_Header';
+@import '_LoginPage';
+@import '_NavbarBottom';
+@import '_NavbarTop';
+@import '_SuccessPage';
+@import '_KeyBenefits';
+@import '_BlueSectionMainPage';
+@import '_PhoneScrollSection';
+
+
+.card { 
+    overflow: hidden;
+    border:0px;
+}
+  
+  
+.row.text-over-image { 
+    width: 200%;
+    height:600px;
+    text-align: center;
+    color:#f9f9fa;
+    font-family: 'poppins',sans-serif;
+    font-size: 3.5rem;
+    
+  
+  }
+@media screen and (max-width:800px){
+.row.text-over-image h1{
+    font-size:2rem !important;
+    padding-left: 40px;
+    padding-right: 40px;
+      
+}
+}
+  
+  
+  
+.col-md-6{
+    padding-right: 0px;
+    padding-left: 0px;;
+    
+}
+  
+.text { /* Step 3 */
+    position:absolute;
+    top:30%;
+    left:.5%; 
+}
+
+@media screen and (min-width:1500px){
+.text{
+    position:absolute;
+    top:20%;
+    left:.5%;
+        
+}
+}
+
+.card img:first-child { 
+    height: 100%;
+    width: 110%;
+    object-fit: cover;
+}
+  
+  /* Button under the center text---BEGIN */
+.learnMoreButton{
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-top: 12px;
+    border-bottom-width: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+  
+}
+@media screen and (max-width:1025px){
+.learnMoreButton{
+    padding-top: 16px;
+    border-bottom-width: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+      
+}
+}
+@media screen and (max-width:500px){
+.learnMoreButton{
+    padding-top: 16px;
+    margin-left: 10px;
+    border-bottom-width: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+       
+}
+}
+
+
+
+ 
+  
+
